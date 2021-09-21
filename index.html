@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="graphicheading">The Daily News</h1>
+    <div class="toprow">
+        <div class="box box1">
+            <h1 class="heading">Student Learns HTML</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate pariatur a repellat non ut nostrum sequi! Sunt recusandae eum, expedita officiis autem at magni quae necessitatibus cumque officia velit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus quo quam officia amet doloribus odit? Nostrum consequatur dolores eaque similique. Ducimus nulla sunt quo quidem libero excepturi pariatur repudiandae.</p>
+
+            
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate pariatur a repellat non ut nostrum sequi! Sunt recusandae eum, expedita officiis autem at magni quae necessitatibus cumque officia velit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus quo quam officia amet doloribus odit? Nostrum consequatur dolores eaque similique. Ducimus nulla sunt quo quidem libero excepturi pariatur repudiandae.</p>
+
+        </div>
+        <div class="box box2">
+            <h1 class="heading"> <span>Breaking:</span>Puppies are Adorable</h1>
+            <div><img src="/image/cat.jpg" alt=""></div>
+            <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nesciunt animi perferendis aliquid voluptates quidem odit repudiandae cum quae totam facilis quos aspernatur quia quam, inventore quisquam voluptatem! Dolor, perferendis?</p>
+            <p class="paragraph">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Molestiae nesciunt animi perferendis aliquid voluptates quidem odit repudiandae cum quae totam facilis quos aspernatur quia quam, inventore quisquam voluptatem! Dolor, perferendis?</p>
+            
+        </div>
+        <div class="box box3">
+            <h1 class="heading">CSS is Apparently a Thing</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit, ipsa fuga delectus asperiores id dolorum molestias ab magni animi alias iusto cupiditate a aspernatur maiores. Ut eum pariatur exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eos aut quia necessitatibus quis quod, quas earum qui explicabo nisi eum maxime, soluta dolores, dignissimos aspernatur facere doloremque recusandae vero? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta a tenetur vel consectetur veritatis! Quos cupiditate minima ad cumque deleniti expedita laudantium sunt? Reprehenderit vitae error consequuntur quos et veritatis?</p>
+             <p class="paragraph">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem suscipit, ipsa fuga delectus asperiores id dolorum molestias ab magni animi alias iusto cupiditate a aspernatur maiores. Ut eum pariatur exercitationem. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Facilis eos aut quia necessitatibus quis quod, quas earum qui explicabo nisi eum maxime, soluta dolores, dignissimos aspernatur facere doloremque recusandae vero? Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dicta a tenetur vel consectetur veritatis! Quos cupiditate minima ad cumque deleniti expedita laudantium sunt? Reprehenderit vitae error consequuntur quos et veritatis?</p>
+        </div>
+    </div>
+
+    <div class="dwn-row">
+        <div class="dwn-rowbox">
+            <h1 class="heading">Boy Likes Turtle</h1>
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate pariatur a repellat non ut nostrum sequi! Sunt recusandae eum, expedita officiis autem at magni quae necessitatibus cumque officia velit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus quo quam officia amet doloribus odit? Nostrum consequatur dolores eaque similique. Ducimus nulla sunt quo quidem libero excepturi pariatur repudiandae.</p>
+
+            
+            <p class="paragraph">Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis voluptate pariatur a repellat non ut nostrum sequi! Sunt recusandae eum, expedita officiis autem at magni quae necessitatibus cumque officia velit! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi necessitatibus quo quam officia amet doloribus odit? Nostrum consequatur dolores eaque similique. Ducimus nulla sunt quo quidem libero excepturi pariatur repudiandae.</p>
+        </div>
+        <div class="nav">
+            
+               
+                <ul class="links">
+                    <li class="navlink">Technology</li>
+                    <li class="navlink">Local</li>
+                    <li class="navlink">Opinion</li>
+                    <li class="navlink">Sports</li>
+                    <li class="navlink">Politics</li>
+                </ul>
+
+            
+        </div>
+    </div>
+
+
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        .toprow{
+            display:flex;
+            /* line-height: 30px; */
+            /* margin: 40px 0; */
+            /* padding: 30px; */
+            flex-direction: row;
+            align-items: stretch;
+            /* justify-content: center; */
+            /* align-items: center; */
+        }
+        .box{
+            /* height: 550px; */
+            border: 2px solid #333;
+        }
+        body{
+            /* border: 2px solid black; */
+            margin: 20px;
+        }
+        .graphicheading{
+            font-size: 50px;
+            text-align: center;
+            margin: 60px 0;
+        }
+        .box1{
+            width: 25%;
+            border-right: 2px solid black;
+            padding: 10px;
+            /* flex-grow: 1; */
+            /* flex-basis: 0; */
+        }
+        .box2{
+            width: 50%;
+            border-right: 2px solid black;
+            padding: 10px;
+            flex-grow: 1;
+            /* flex-basis: 0; */
+        }
+        .box3{
+            width: 25%;
+            /* border-right: 2px solid black; */
+            padding: 10px;
+            /* flex-grow: 1; */
+            /* flex-basis: 0; */
+        }
+        img{
+             width: 100%;
+            /* flex-basis: 0; */
+        }
+        .heading{
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .paragraph{
+            padding: 15px;
+            /* margin-bottom: 15px; */
+        }
+        .dwn-row{
+            display: flex;
+            /* margin-top: 50px; */
+            /* border: 2px solid red; */
+        }
+        .dwn-rowbox {
+            border: 2px solid #333;
+            padding: 10px;
+            /* margin-top: 50px; */
+             /* display: flex; */
+            /* flex-direction: column; */
+            width: 25%;
+        }
+        .nav{
+            display: flex;         
+            width: 75%;
+        }
+        
+        .links{
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+        }
+        .navlink{
+            display: flex;
+            flex: 1;
+            align-items: center;
+            font-size: 30px;
+            padding-left: 30px;
+            /* flex-grow: 2; */
+        }
+        li a{
+            text-decoration: none;
+           
+        }
+        .navlink:first-child{
+            background-color: yellow;
+        }
+        .navlink:nth-child(2){
+            background-color: cyan ;
+        }
+         .navlink:nth-child(3){
+             background-color: rgb(68, 236, 34);
+         }
+        .navlink:nth-child(4){
+             background-color: rgb(28, 148, 179);
+         }
+         .navlink:last-child{
+             background-color: rgb(200, 121, 219);
+         }
+         @media screen and (max-width: 500px) {
+             .box1{
+                 display: grid;
+                 flex-direction: row;
+             }
+         }
+
+    </style>
+</body>
+</html>
